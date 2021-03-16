@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.semantic{
+	background-color: yellow;
+}
+
+.non-semantic{
+	background-color: red;
+	color: white;
+}
+
+.block{
+	background-color: green;
+	color: white;
+	display: block;
+}
+
+.inline{
+	background-color: red;
+	display: inline;
+	font-size: 20px;
+}
+
+.inline-block{
+	background-color: blue;
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+}
+
+.red{
+	background-color: red;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.green{
+	background-color: green;
+	padding: 50px;
+}
+
+.layout{
+	background-color: yellow;
+	width: 100%;
+}
+.container{
+
+	border: 2px solid black;
+	width: 1000px;
+	margin: 0 auto; 
+}
+
+.header{
+	width: 100%;
+	border: 1px solid green;
+	overflow: hidden;
+}
+
+.logo{
+	border: 1px solid red;
+	width: 20%;
+	margin: 20px;
+	padding: 20px;
+	display: inline-block
+}
+.nav{
+	border: 1px solid red;
+	width: 65%;
+	margin: 20px 20px 0 0;
+	padding: 20px;
+	float: right;
+	display: inline-block; 
+}
+
+.banner{
+	border: 1px solid red;
+	margin: 20px;
+	padding: 200px;
+	margin-top: 0;
+}
+
+.banner h2{
+	text-align: center;
+}
+
+.about{
+	border: 1px solid red;
+	margin: 20px;
+	padding: 200px;
+	margin-top: 0;
+}
+
+.about h2{
+	text-align: center;
+}
+
+.service{
+	border: 1px solid red;
+	margin: 20px;
+	margin-top: 0;
+	overflow: hidden;
+}
+.service h2{
+	text-align: center;
+}
+.services{
+	border: 1px solid red;
+	width: 22%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin: 50px 13px;
+}
+
+.testemonial{
+	border: 1px solid red;
+	margin: 20px;
+	padding: 200px;
+	margin-top: 0;
+}
+.testemonial h2{
+	text-align: center;
+}
+
+.contact{
+	border: 1px solid red;
+	margin: 20px;
+	padding: 200px;
+	margin-top: 0;
+}
+
+.contact h2{
+	text-align: center;
+}
+
+.footer{
+	border: 1px solid red;
+	margin: 20px;
+	padding: 200px;
+	margin-top: 0;
+}
+.footer h2{
+	text-align: center;
+}
